@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   template:`
 <div>
   <nav-bar> </nav-bar>
-  <h2>Minflixapp </h2>
+  <router-outlet></router-outlet>
 </div>
   `,
 })
